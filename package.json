@@ -1,0 +1,31 @@
+{
+  "name": "playwright-e2e-demo",
+  "version": "1.0.0",
+  "description": "Production-style end-to-end tests in TypeScript + Playwright: Page Object Model, fixtures, data-driven cases, cross-browser, and CI.",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:chromium": "playwright test --project=chromium",
+    "typecheck": "tsc --noEmit",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "e2e",
+    "end-to-end-testing",
+    "test-automation",
+    "typescript",
+    "page-object-model",
+    "qa"
+  ],
+  "author": "Raju Shanigarapu",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.7.0",
+    "typescript": "^5.6.0"
+  }
+}
